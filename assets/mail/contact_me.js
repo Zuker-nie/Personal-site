@@ -62,7 +62,7 @@ $(function () {
                     );
                     $("#success > .alert-danger").append("</div>");
                     //clear all fields
-                    $("#contactForm").trigger("reset");
+                    //$("#contactForm").trigger("reset");
                 },
                 complete: function () {
                     setTimeout(function () {

@@ -26,6 +26,14 @@
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <div class="swapper">
+                        <input type="checkbox" class="checkbox" id="checkbox">
+                        <label for="checkbox" class="themechanger">
+                            <i class="fas fa-moon"></i>
+                            <i class="fas fa-sun"></i>
+                            <div class="ball"></div>
+                        </label>
+                    </div>
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Projects</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a></li>
@@ -253,7 +261,20 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/filest.JPG" alt="Filest Mobile Application"/>
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">More About the Projects Coming Soon !</p>
+                                    <p class="mb-5" style="width: 75%; text-align: center; margin: auto;">This project was in collaboration with Hassan Khan, Phillip Cappello, Hira Hasan and Nicholas Newman</p>
+                                    <table class="projectT">
+                                        <tr>
+                                            <th class="projectH">Roles / Tasks </th>
+                                            <th class="projectH">Description</th>
+                                            <th class="projectH">Tools</th>
+                                        </tr>
+                                        <tr>
+                                            <td class="projectD">Web UI Design, Android Application Developer</td>
+                                            <td class="projectD">An application that manages and features tools for all Human Resources related inquiries. This application makes communication and managing a team much more efficient and simple.</td>
+                                            <td class="projectD">For this application, it was make in IOS, Android and JavaScript. The implementation of Firebase its on its way to keep clients information secure and organized. The web uses react.js elements to create the visuals.</td>
+                                        </tr>
+                                    </table>
+                                    <br>
                                     <button class="btn btn-primary" data-dismiss="modal">
                                         <i class="fas fa-times fa-fw"></i>
                                         Close Window
@@ -287,10 +308,10 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/Imbalance_Tracker.gif" alt="aptrainingins" />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">This project was in collaboration with Hackathon Team Members (Hassan Khan, Phillip Cappello). The hackathon was hosted by Stacie Library at York University.</p>
-                                    <table style="width: inherit">
+                                    <p class="mb-5" style="width: 75%; text-align: center; margin: auto;">This project was in collaboration with Hackathon Team Members (Hassan Khan, Phillip Cappello). The hackathon was hosted by Stacie Library at York University.</p>
+                                    <table class="projectT">
                                         <tr>
-                                            <th class="projectH">Tasks</th>
+                                            <th class="projectH">Roles / Tasks </th>
                                             <th class="projectH">Description</th>
                                             <th class="projectH">Tools</th>
                                         </tr>
@@ -300,7 +321,7 @@
                                             <td class="projectD">TensorFlow API was the main library we used, mainly we took advantage of the body segementation to allow us to get x,y,z positions for certain body parts and we would let the program dictate whether it was a good range of motion or incorrect form of lifting.</td>
                                         </tr>
                                     </table>
-                                    <p></p>
+                                    <br>
                                     <button class="btn btn-primary" data-dismiss="modal">
                                         <i class="fas fa-times fa-fw"></i>
                                         Close Window

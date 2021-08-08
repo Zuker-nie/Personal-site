@@ -64,6 +64,11 @@
         $(this).removeClass("floating-label-form-group-with-focus");
       });
     });
-  
+    const checkbox = document.getElementById("checkbox");
+    checkbox.addEventListener("change", () => {
+    document.body.classList.toggle("dark");
+    });
   })(jQuery); // End of use strict
+
+
   

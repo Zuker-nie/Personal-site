@@ -1663,8 +1663,11 @@ pre code {
 }
 .projectD{
     border: 2px solid #007bff;
-    padding: 15px;;
-    
+    padding: 15px;
+    text-align: left;
+}
+.table projectT{
+    border-spacing: 15px;
 }
 .table {
   width: 100%;
@@ -3964,6 +3967,57 @@ input[type=button].btn-block {
   display: block;
 }
 
+*{
+    box-sizing: border-box;
+}
+.swapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    margin: 0;
+}
+.swapper.dark{
+    background-color: #292C35;
+}
+.body.dark .portfolio{
+    background-color: #292C35;
+}
+.themechanger {
+    height: 26px;
+    width: 60px;
+    display: flex;
+    border-radius: 50px;
+    align-items: center;
+    background-color: #111;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    transform: scale(1.5);
+}
+.fa-moon{
+    color: #69a2ff;
+}
+.fa-sun{
+    color: darkgrey;
+}
+.ball{
+    width: 22px;
+    height: 22px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 50%;
+    top: 2px;
+    left: 2px;
+    transition: transform 0.2s linear;
+}
+.checkbox{
+    opacity: 0;
+    position: absolute;
+}
+.checkbox:checked + .themechanger .ball {
+    transform: translateX(34px);
+}
 .navbar {
   position: relative;
   display: flex;

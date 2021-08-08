@@ -1657,6 +1657,15 @@ pre code {
     margin-left: 91.6666666667%;
   }
 }
+
+.projectH {
+    text-decoration: underline;
+}
+.projectD{
+    border: 2px solid #007bff;
+    padding: 15px;;
+    
+}
 .table {
   width: 100%;
   margin-bottom: 1rem;

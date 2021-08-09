@@ -4009,7 +4009,7 @@ input[type=button].btn-block {
     border-radius: 50%;
     top: 2px;
     left: 2px;
-    transition: transform 0.2s linear;
+    transition: transform 0.3s linear;
 }
 .checkbox{
     opacity: 0;
